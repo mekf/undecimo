@@ -653,7 +653,7 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	
 	$('#layerslider').layerSlider({
-		skinsPath : 'css/skins/',
+		skinsPath : 'assets/skins/',
 		skin : 'minimal',
 		thumbnailNavigation : 'always',				
 	});
@@ -664,7 +664,7 @@ jQuery(document).ready(function($){
 	
 	$('#layerslider-main').layerSlider({
 		imgPreload : true,
-		skinsPath : 'css/skins/',
+		skinsPath : 'assets/skins/',
 		skin : 'undecimo',
 		thumbnailNavigation : 'hidden',				
 	});
