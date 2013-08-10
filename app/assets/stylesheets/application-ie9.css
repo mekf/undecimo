@@ -12,4 +12,5 @@
  *= require_tree ./base
  *= require_tree ./undecimo
  *= require ./undecimo-ie/styleIE9
+ *= require font-awesome
  */

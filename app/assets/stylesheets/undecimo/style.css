@@ -13,10 +13,10 @@
 
 /* Import Section
 =================================================================== */
-@import url("social-icons.css");			/* Social Icons */
-@import url("fancybox.css");				/* Fancybox */
-@import url("glyphicons.css");				/* Glyphicons SVG & Font */
-@import url("halflings.css");				/* Glyphicons Halflings SVG & Font */
+/*@import url("social-icons.css");
+@import url("fancybox.css");
+@import url("glyphicons.css");
+@import url("halflings.css");*/
 
 html { -webkit-font-smoothing: antialiased; }
 

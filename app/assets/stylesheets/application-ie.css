@@ -10,7 +10,7 @@
  *
  *= require_self
  *= require_tree ./base
- *= require font-awesome-ie7.min
  *= require_tree ./undecimo
  *= require ./undecimo-ie/styleIE
+ *= require font-awesome-ie7.min
  */
