@@ -1,2 +1,90 @@
-%h1 Display#index
-%p Find me in app/views/display/index.html.haml
+.container
+  = render 'layouts/carousel'
+#wrapper
+  .container
+    .hero-unit
+      %h2
+        Quang Minh Clinic mang đến cho bệnh nhân những dịch vụ mà Quang Minh Clinic là nơi thực hiện tốt nhất, thậm chí là nơi duy nhất thực hiện ở Việt Nam
+      %h3
+        Cac dich vu ky thuat cao chung toi chung cap: Thoat Vi Dia Dem Bang Laser (PLDD), Vat Ly Tri Lieu - Phuc Hoi Chuc Nang, San Soc Da, voi nhung trang thiet by hien dai nhat, xung tam khu vuc
+        %strong Quang Minh Clinic sẽ là địa chỉ tin cậy của mọi người
+    %hr
+
+    .row-fluid
+      .span3.box
+        %i.icon-eye-open
+        %h3 Tầm Nhìn
+        %h4 subtitle
+        %p Đối với nhiều người, Phòng khám đa khoa Quang Minh (Quang Minh Clinic) quen thuộc với kỹ thuật điều trị độc đáo - Giảm áp đĩa đệm cột sống bằng laser qua da - hay gọi tắt là PLDD. Với kỹ thuật PLDD, nhiều bệnh nhân thoát vị đĩa đệm có thêm chọn lựa phương pháp điều trị, tránh được các cuộc mổ hở phức tạp, nhanh chóng khôi phục khả năng lao động và chất lượng cuộc sống.
+        %a.btn.btn-small{:href => "#"} Read More
+        .clearfix
+        %hr.visible-phone/
+      .span3.box
+        %i.icon-plus
+        %h3 Kỹ Thuật Hiện Đại
+        %h4 subtitle
+        %p In most people’s vocabularies, design means veneer. It’s interior decorating. It’s the fabric of the curtains of the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a human-made creation that ends up expressing itself in successive outer layers of the product or service.
+        %a.btn.btn-small{:href => "#"} Read More
+        .clearfix
+        %hr.visible-phone/
+      .span3.box
+        %i.icon-heart
+        %h3 Tâm Huyết
+        %h4 subtitle
+        %p In most people’s vocabularies, design means veneer. It’s interior decorating. It’s the fabric of the curtains of the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a human-made creation that ends up expressing itself in successive outer layers of the product or service.
+        %a.btn.btn-small{:href => "#"} Read More
+        .clearfix
+        %hr.visible-phone/
+      .span3.box
+        %i.icon-question-sign
+        %h3 Tư Vấn
+        %h4 subtitle
+        %p In most people’s vocabularies, design means veneer. It’s interior decorating. It’s the fabric of the curtains of the sofa. But to me, nothing could be further from the meaning of design. Design is the fundamental soul of a human-made creation that ends up expressing itself in successive outer layers of the product or service.
+        %a.btn.btn-small{:href => "#"} Read More
+        .clearfix
+    %hr
+
+    .row-fluid
+      %span12.center
+        %h1 THÔNG BÁO
+        %br
+        %p
+          Phòng Khám Quang Minh - (Quang Minh Clinic) cung cấp dịch vụ tư vấn và điều trị tại <b><u>địa chỉ duy nhất</u></b>:
+        %p
+          %b 736A Nguyễn Kiệm - Phường 4 - Quận Phú Nhuận - TP Hồ Chí Minh
+    .row-fluid
+      .span6.right
+        %h3 Giờ Làm Việc
+        %h4 thứ hai – thứ sáu
+        %p
+          %i.icon-ok-circle
+          sáng:
+          %font{style: "margin-left:8px"} 07:30 – 11:30
+          %br/
+          %i.icon-ok-sign
+          chiều:
+          %font{style: "margin-left:2px"} 13:30 – 17:00
+        %h4
+          thứ bảy, chủ nhật, & ngày lễ
+        %p
+          %i.icon-minus-sign
+          không làm việc
+      
+      .span6
+        %h3 Liên Hệ
+        %p
+          736A Nguyễn Kiệm - Phường 4
+          %br/
+          Quận Phú Nhuận
+          %br/
+          TP Hồ Chí Minh
+          %br/
+          %br/
+          <font style="margin-left:0px;font-weight:bold;">(08) 3-997-4945</font>
+          %br/
+          <i class="icon-envelope"></i> |
+          %a{ href: "mailto:info@quangminhclinic.com" }
+            info@quangminhclinic.com
+
+    #googlemaps
+      #map-canvas.map-canvas-full
